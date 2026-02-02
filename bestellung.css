@@ -1,0 +1,285 @@
+body {
+    margin: 5;
+    min-height: 100vh;
+    background-color: darkolivegreen;
+}
+
+.navbar {
+  display: flex;               
+  justify-content: space-between; 
+  align-items: center;        
+  padding: 20px 30px;     
+  border-radius: 20px;     
+  background-color:antiquewhite;   
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.nav-logo {
+  display: flex;
+  color:darkolivegreen;
+  font-weight: 900;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;            
+  gap: 20px;                  
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;   
+  border-radius: 20px;  
+  color:dimgrey;                 
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: rgb(236, 218, 195);
+  border-radius: 20px;
+  border: 1px;
+  padding: 5px;
+}
+
+
+.btn-kontakt {
+  text-decoration: none;
+  background-color:darkolivegreen;  
+  color:white;
+  padding: 10px 20px;
+  border-radius: 20px;          
+  transition: 0.6s;            
+}
+
+.btn-kontakt:hover {
+  background-color: rgb(46, 58, 24);  
+}
+
+.personal-data {
+    font-family:"Montserrat", sans-serif;
+    color: darkolivegreen;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex: 1;
+    max-height: 580px;
+    min-width: 200px;
+    flex-direction: column;
+    gap: 9px
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    color: darkolivegreen;
+    border: 2px solid darkolivegreen;
+    border-radius: 20px;
+    height: 10px;
+}
+
+.empfangsart {
+    font-family:"Montserrat", sans-serif;
+    color: darkolivegreen;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex: 1;
+    max-height: 580px;
+    min-width: 200px;
+    flex-direction: column;
+    gap: 9px
+}
+
+.kontrolle {
+    font-family:"Montserrat", sans-serif;
+    color: darkolivegreen;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex: 1;
+    max-height: 580px;
+    min-width: 200px;
+    flex-direction: column;
+    gap: 9px
+    
+}
+
+.button-bestellen {
+  text-decoration: none;
+  border: none; 
+  background-color:darkolivegreen;  
+  color:white;
+  font-family:"Montserrat", sans-serif;
+  font-size: 16px;
+  font-optical-sizing: auto;
+  padding: 10px 20px;
+  border-radius: 20px;          
+  transition: 0.6s;   
+            
+}
+
+.button-bestellen:hover {
+  background-color:rgb(46, 58, 24);
+  cursor: pointer;
+}
+
+.produktauswahl {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex: 1;
+    height: auto;
+    min-width: 200px;
+    flex-direction: column;
+    gap: 9px;
+}
+
+select {
+    border: 2px solid darkolivegreen;
+    border-radius: 20px;
+    height: 22px;
+    color:darkolivegreen
+}
+
+.boxen {
+  font-family:"Montserrat", sans-serif;
+  color: darkolivegreen;
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+
+@media (max-width: 1000px) {
+body {
+    margin: 5;
+    min-height: 100vh;
+    background-color: darkolivegreen
+    
+}
+.navbar {
+    flex-direction: column; 
+    gap: 20px;              
+    padding: 20px;        
+  }
+
+  .nav-links {
+    flex-direction: column; 
+    margin-bottom: 4px;
+    align-items: center;    
+    gap: 15px;
+
+  }
+
+  .btn-kontakt {
+  text-decoration: none;
+  background-color:darkolivegreen;   
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;          
+  transition: 0.6s;          
+  }
+
+  .nav-logo {
+  display: flex;
+  color:darkolivegreen;
+  font-weight: 900;
+  font-size: 20px;
+  }
+
+.personal-data {
+    font-family:"Montserrat", sans-serif;
+    color: darkolivegreen;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 9px;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    color: darkolivegreen;
+    border: 2px solid darkolivegreen;
+    border-radius: 20px;
+    height: 10px;
+}
+
+.empfangsart {
+    font-family:"Montserrat", sans-serif;
+    color: darkolivegreen;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    height: auto;
+}
+
+.kontrolle {
+    font-family:"Montserrat", sans-serif;
+    color: darkolivegreen;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    height: auto;
+}
+
+.button-bestellen {
+  text-decoration: none;
+  border: none; 
+  background-color:darkolivegreen;   
+  color:white;
+  font-family:"Montserrat", sans-serif;
+  font-size: 16px;
+  font-optical-sizing: auto;
+  padding: 10px 20px;
+  border-radius: 20px;          
+  transition: 0.6s;   
+            
+}
+
+.produktauswahl {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    box-sizing: border-box;
+    
+    
+}
+
+select {
+    border: 2px solid darkolivegreen;
+    border-radius: 20px;
+    height: 22px;
+    color:darkolivegreen
+}
+
+.boxen {
+  font-family:"Montserrat", sans-serif;
+  color: darkolivegreen;
+  display: flex;
+  
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+}
